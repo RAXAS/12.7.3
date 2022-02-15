@@ -7,7 +7,7 @@ skb = float(per_cent.get("skb"))
 vtb = float(per_cent.get("vtb"))
 sber = float(per_cent.get("sber"))
 
-deposit = [int(tbk) * money, int(skb) * money, int(vtb) * money, int(sber) * money]
+deposit = [int(tbk * money), int(skb * money), int(vtb * money), int(sber * money)]
 
 a = int(max(deposit))
 
